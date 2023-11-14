@@ -11,4 +11,4 @@ if not string match -q -- $PNPM_HOME $PATH
 end
 # pnpm end
 
-set -gx TRILIUM_DATA_DIR /run/media/mykhailo-work/Sage/trilium-data-base/
+set -gx TRILIUM_DATA_DIR /run/media/mykhailomaidan-work/storage/trilium-data-base/
