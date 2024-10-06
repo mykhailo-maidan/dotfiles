@@ -2,6 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+set -gx fish_tmux_autoconnect false
 
 
 starship init fish | source
@@ -19,4 +20,3 @@ if not string match -q -- $PNPM_HOME $PATH
 end
 # pnpm end
 
-set -gx TRILIUM_DATA_DIR /run/media/mykhailomaidan-work/storage/trilium-data-base/
